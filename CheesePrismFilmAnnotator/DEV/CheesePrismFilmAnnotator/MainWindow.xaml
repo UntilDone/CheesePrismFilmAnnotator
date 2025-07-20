@@ -6,7 +6,9 @@
         xmlns:local="clr-namespace:CheesePrismFilmAnnotator"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" x:Class="CheesePrismFilmAnnotator.MainWindow"
         mc:Ignorable="d"
-        Title="로그인" Height="300" Width="800">
+        Title="로그인" Height="300" Width="800"
+        ThemeMode="System"
+    >
     <Grid Margin="0,0,285,0">
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
