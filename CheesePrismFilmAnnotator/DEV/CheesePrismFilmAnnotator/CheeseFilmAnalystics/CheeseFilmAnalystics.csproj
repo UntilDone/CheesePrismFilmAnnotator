@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net9.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UseWPF>true</UseWPF>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Folder Include="View\" />
+		<Folder Include ="ViewModel"/>
+		<Folder Include ="Model"/>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="NLua" Version="1.7.5" />
+	    <UseWindowsForms>true</UseWindowsForms>
+	<Folder Include="ViewModel" />
+	<Folder Include="Model" />
+</ItemGroup>
+
+</Project>
