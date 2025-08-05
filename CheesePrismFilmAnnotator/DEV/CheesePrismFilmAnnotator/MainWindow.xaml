@@ -5,7 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CheesePrismFilmAnnotator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        WindowStartupLocation="CenterScreen"
+        ContentRendered="Window_ContentRenedered"
+        Title="Launcher" Height="576" Width="1080">
     <Grid>
 
     </Grid>

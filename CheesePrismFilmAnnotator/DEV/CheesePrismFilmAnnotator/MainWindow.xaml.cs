@@ -20,5 +20,9 @@ namespace CheesePrismFilmAnnotator
         {
             InitializeComponent();
         }
+        private void Window_ContentRendered(object sender, EventArgs e)
+        {
+
+        }
     }
 }
