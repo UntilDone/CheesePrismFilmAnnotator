@@ -5,10 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CheesePrismFilmAnnotator"
         mc:Ignorable="d"
-        WindowStartupLocation="CenterScreen"  
-        ContentRendered="Window_ContentRendered"
-        Title="Launcher" Height="576" Width="1080">
+        WindowStartupLocation="CenterScreen"
+        Title="Launcher" Height="832" Width="1200">
     <Grid>
-
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="80" />
+            <ColumnDefinition Width="435" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="140" />
+        </Grid.ColumnDefinitions>
     </Grid>
 </Window>
