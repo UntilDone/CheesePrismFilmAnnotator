@@ -22,11 +22,29 @@ namespace CheesePrismFilmAnnotator.Model
 
     public enum TaskState
     {
+        /// <summary>
+        /// The task is currently being worked on.
+        /// </summary>
         InProgress,
+        /// <summary>
+        /// The task has been completed successfully.
+        /// </summary>
         Completed,
+        /// <summary>
+        /// The task is pending and has not yet been started.
+        /// </summary>
         NotStarted,
+        /// <summary>
+        /// The task is overdue and needs immediate attention.
+        /// </summary>
         Late,
+        /// <summary>
+        /// The task has been paused temporarily.
+        /// </summary>
         Archived,
+        /// <summary>
+        /// The task has been deleted and is no longer available.
+        /// </summary>
         Deleted
     }
 
@@ -55,5 +73,15 @@ namespace CheesePrismFilmAnnotator.Model
         Medium,
         High,
         Critical
+    }
+
+    public void addTa(string a, string b)
+    {
+        switch ((a, b))
+        {
+            case ("Work", "Personal"):
+                // Add logic for Work and Personal task
+                break;
+        }
     }
 }

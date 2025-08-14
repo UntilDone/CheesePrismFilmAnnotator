@@ -12,10 +12,7 @@
     <Folder Include="Assets\Files\Txt\" />
     <Folder Include="Assets\Images\" />
     <Folder Include="Assets\Files\Data\" />
-    <Folder Include="Model\" />
-    <Folder Include="Dictionary\" />
     <Folder Include="Services\" />
-    <Folder Include="ViewModel\" />
   </ItemGroup>
 
 </Project>
