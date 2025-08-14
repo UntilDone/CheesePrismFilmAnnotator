@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:CheesePrismFilmAnnotator"
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
-        Title="Launcher" Height="832" Width="1200">
+        Title="Launcher" Height="832" Width="1300">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="80" />
